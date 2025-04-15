@@ -11,3 +11,5 @@ def is_palindrome(value):
     )
     # Verificamos si es un palíndromo
     return clean_text == clean_text[::-1]
+entrada = input("Ingrese una palabra o frase: ")
+print("Es un palíndromo" if is_palindrome(entrada) else "No es un palíndromo")
