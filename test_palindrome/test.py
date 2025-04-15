@@ -13,4 +13,4 @@ class TestPalindrome(unittest.TestCase):
         self.assertEqual(is_palindrome("Ojo rojo"), True)
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main() 
